@@ -1,0 +1,39 @@
+{
+  "config": {
+    "flow_title": "{device}",
+    "step": {
+      "user": {
+        "description": "Turn Samsung TV ON. Enter your Samsung TV information. If you never connected Home Assistant before you should see a popup on your TV asking for authorization.",
+        "data": {
+          "host": "IP address or hostname",
+          "name": "Device Name"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of your TV.",
+          "name": "The device name for your TV."
+        }
+      },
+      "confirm": {
+        "description": "Do you want to set up {device}? If you never connected Home Assistant before you should see a popup on your TV asking for authorization."
+      },
+      "reauth_confirm": {
+        "description": "After submitting, accept the popup on {device} requesting authorization within 30 seconds or input PIN."
+      }
+    },
+    "abort": {
+      "already_in_progress": "Device configuration already in progress",
+      "already_configured": "Device is already configured",
+      "auth_missing": "Home Assistant is not authorized to connect to this Samsung TV. Check your TV's External Device Manager settings to authorize Home Assistant.",
+      "id_missing": "This Samsung device doesn't have a SerialNumber.",
+      "cannot_connect": "Can not connect to device..Is it ON?",
+      "not_supported": "This Samsung device is currently not supported.",
+      "unknown": "Unknown error occurred",
+      "reauth_successful": "Device reauthorization successful"
+    }
+  },
+  "device_automation": {
+    "trigger_type": {
+      "samsungtv.turn_on": "Device is requested to turn on"
+    }
+  }
+}
