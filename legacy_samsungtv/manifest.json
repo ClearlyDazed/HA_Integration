@@ -1,0 +1,23 @@
+{
+  "domain": "legacy_samsungtv",
+  "name": "Legacy Samsung TV",
+  "codeowners": ["@ClearlyDazed"],
+  "config_flow": true,
+  "dependencies": ["ssdp"],
+  "documentation": "https://github.com/ClearlyDazed/Legacy_SamsungTV",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": ["samsungTVlegacy", "samsungtvws"],
+  "requirements": [
+    "samsungTVlegacy[websocket]==0.1.1",
+    "getmac==0.9.4",
+    "samsungtvws[async]==2.7.2",
+    "async-upnp-client==0.43.0"
+  ],
+  "ssdp": [
+    {
+      "st": "urn:samsung.com:device:RemoteControlReceiver:1"
+    }
+  ],
+  "version": "2025.1.0"
+}
