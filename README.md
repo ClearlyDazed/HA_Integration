@@ -1,4 +1,4 @@
-# legacy_samsungtv - NOT WORKING
+# legacy_samsungtv
 Home Assistant Integration for legacy Samsung TV with enhanced source selection.
 
 The legacy samsungtv platform allows you to control a legacy Samsung Smart TV. In my case a Series F (2013) TV.
