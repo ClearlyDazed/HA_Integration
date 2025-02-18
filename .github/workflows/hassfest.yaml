@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run hassfest
-        run: docker run --rm -v ${{ github.workspace }}/custom_components:/workdir/custom_components ghcr.io/home-assistant/hassfest
+        run: docker run --rm -v ${{ github.ClearlyDazed/Legacy_SamsungTV/tree/2025.1/legacy_samsungtv }}/custom_components:/workdir/custom_components ghcr.io/home-assistant/hassfest
