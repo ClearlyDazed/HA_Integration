@@ -10,9 +10,9 @@
   "loggers": ["samsungTVlegacy", "samsungtvws"],
   "requirements": [
     "samsungTVlegacy[websocket]==0.1.1",
-    "getmac==0.9.4",
+    "getmac==0.9.5",
     "samsungtvws[async]==2.7.2",
-    "async-upnp-client==0.43.0"
+    "async-upnp-client==0.44.0"
   ],
   "ssdp": [
     {
