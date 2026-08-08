@@ -11,13 +11,13 @@
   "requirements": [
     "samsungTVlegacy[websocket]==0.1.1",
     "getmac==0.9.5",
-    "samsungtvws[async]==2.7.2",
-    "async-upnp-client==0.46.2"
+    "samsungtvws[async]==3.0.5",
+    "async-upnp-client==0.47.1"
   ],
   "ssdp": [
     {
       "st": "urn:samsung.com:device:RemoteControlReceiver:1"
     }
   ],
-  "version": "2025.1.0"
+  "version": "2026.1.0"
 }
