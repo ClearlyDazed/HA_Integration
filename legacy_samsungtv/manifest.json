@@ -12,7 +12,7 @@
     "samsungTVlegacy[websocket]==0.1.1",
     "getmac==0.9.5",
     "samsungtvws[async]==3.0.5",
-    "async-upnp-client==0.47.1"
+    "async-upnp-client==0.48.1"
   ],
   "ssdp": [
     {
